@@ -1,0 +1,243 @@
+/* ============================================================
+   Compêndio — Arnaldo Gunzi
+   Tema: Azul escuro e branco — fundo branco, acentos azul escuro
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+
+/* ---------- Variáveis de cor ---------- */
+:root {
+  --blue-deep:    #0a1628;
+  --blue-dark:    #112240;
+  --blue-mid:     #1a3a6b;
+  --blue-accent:  #2563ae;
+  --blue-light:   #3b7dd8;
+  --blue-pale:    #e8f0fe;
+  --white:        #ffffff;
+  --off-white:    #f6f9fd;
+  --text-main:    #1a2a3a;
+  --text-muted:   #5a7a9a;
+  --border:       rgba(37, 99, 174, 0.18);
+  --shadow:       0 4px 24px rgba(10, 22, 40, 0.12);
+}
+
+/* ---------- Base ---------- */
+body,
+.quarto-container,
+#quarto-content {
+  background-color: var(--white) !important;
+  color: var(--text-main) !important;
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+  background: var(--blue-dark) !important;
+  border-bottom: 3px solid var(--blue-accent) !important;
+  padding: 0.75rem 1.5rem !important;
+  box-shadow: 0 2px 16px rgba(10, 22, 40, 0.18) !important;
+}
+
+.navbar-brand,
+.navbar-brand:hover {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.25rem !important;
+  font-weight: 700 !important;
+  color: var(--white) !important;
+  letter-spacing: 0.04em;
+}
+
+.navbar .nav-link {
+  color: rgba(255,255,255,0.75) !important;
+  font-size: 0.9rem !important;
+  font-weight: 500 !important;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  transition: color 0.2s ease;
+  padding: 0.5rem 1rem !important;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+  color: var(--white) !important;
+}
+
+/* ---------- Área principal ---------- */
+#quarto-content main {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 3rem 2rem 4rem;
+}
+
+/* ---------- Título da página (h1) ---------- */
+h1.title,
+.quarto-title h1 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: clamp(1.9rem, 4vw, 2.7rem) !important;
+  font-weight: 700 !important;
+  color: var(--blue-deep) !important;
+  line-height: 1.2 !important;
+  margin-bottom: 0.5rem !important;
+  letter-spacing: -0.01em;
+}
+
+/* Linha decorativa abaixo do título */
+.quarto-title-meta,
+h1.title + p:first-of-type {
+  border-left: 3px solid var(--blue-accent);
+  padding-left: 1rem;
+  color: var(--text-muted) !important;
+  font-style: italic;
+  margin-bottom: 2.5rem;
+}
+
+/* ---------- Headings ---------- */
+h2 {
+  font-family: 'Playfair Display', serif !important;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  color: var(--blue-dark) !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 0.6rem !important;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid var(--border);
+  letter-spacing: 0.01em;
+}
+
+h3 {
+  font-family: 'Source Sans 3', sans-serif !important;
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  color: var(--blue-accent) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 1.8rem !important;
+}
+
+/* ---------- Parágrafos ---------- */
+p {
+  color: var(--text-main) !important;
+  font-size: 1.02rem;
+  margin-bottom: 1rem;
+}
+
+/* ---------- Links ---------- */
+a {
+  color: var(--blue-accent) !important;
+  text-decoration: none !important;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+a:hover {
+  color: var(--blue-deep) !important;
+  border-bottom-color: var(--blue-accent) !important;
+}
+
+/* ---------- Listas ---------- */
+ul, ol {
+  padding-left: 1.4rem;
+}
+
+li {
+  color: var(--text-main) !important;
+  margin-bottom: 0.4rem;
+}
+
+li::marker {
+  color: var(--blue-accent) !important;
+}
+
+/* ---------- TOC (Índice lateral) ---------- */
+#TOC,
+.sidebar-toc,
+nav[role="doc-toc"] {
+  background: var(--off-white) !important;
+  border-left: 3px solid var(--blue-accent) !important;
+  border-radius: 4px;
+  padding: 1.25rem 1rem !important;
+}
+
+#TOC .nav-link,
+nav[role="doc-toc"] a {
+  color: var(--text-muted) !important;
+  font-size: 0.85rem !important;
+  padding: 0.2rem 0.5rem !important;
+  transition: color 0.2s;
+}
+
+#TOC .nav-link:hover,
+#TOC .nav-link.active,
+nav[role="doc-toc"] a:hover {
+  color: var(--blue-dark) !important;
+  background: transparent !important;
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar,
+#quarto-sidebar {
+  background: var(--off-white) !important;
+  border-right: 1px solid var(--border) !important;
+}
+
+/* ---------- Footer ---------- */
+footer,
+#quarto-footer {
+  background: var(--blue-dark) !important;
+  border-top: 3px solid var(--blue-accent) !important;
+  color: rgba(255,255,255,0.65) !important;
+  font-size: 0.82rem;
+  padding: 1.5rem 2rem;
+  text-align: center;
+}
+
+/* ---------- Code blocks ---------- */
+pre, code {
+  background: var(--off-white) !important;
+  color: var(--blue-deep) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 4px;
+  font-size: 0.88rem;
+}
+
+/* ---------- Blockquote ---------- */
+blockquote {
+  border-left: 4px solid var(--blue-accent) !important;
+  background: var(--off-white) !important;
+  color: var(--text-muted) !important;
+  padding: 0.8rem 1.2rem;
+  border-radius: 0 4px 4px 0;
+  margin: 1.5rem 0;
+}
+
+/* ---------- Imagens ---------- */
+img {
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Scrollbar ---------- */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: var(--off-white); }
+::-webkit-scrollbar-thumb { background: var(--blue-mid); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--blue-accent); }
+
+/* ---------- Seleção de texto ---------- */
+::selection {
+  background: var(--blue-accent);
+  color: var(--white);
+}
+
+/* ---------- Animação de entrada ---------- */
+#quarto-content main {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
