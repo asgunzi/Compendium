@@ -2,50 +2,64 @@
   {
     "objectID": "sobre.html",
     "href": "sobre.html",
-    "title": "Sobre: Arnaldo Gunzi",
+    "title": "Arnaldo Satoru Gunzi",
     "section": "",
-    "text": "Sobre: Arnaldo Gunzi\nSou apenas um curioso sobre a vida, a matemática aplicada e a natureza…\nMinha missão: Traduzir Matemática Avançada + Dados + Conhecimento do Negócio em valor real por meio de Analytics Avançado, IA e Otimização.\n\nTenho uma vasta experiência prática, em mais de 200 projetos, passando por pela Stone, Mercado Livre, Klabin e Visagio.\nProfessor da XP Educação, Palestrante (de vez em quando alguém insano o suficiente me convida para palestrar) e Escritor (blog, newsletter, artigos)."
+    "text": "class=\"content\" id=\"quarto-document-content\"> Arnaldo Satoru Gunzi Senior Staff Data Scientist na Stone e professor na XP Educação. Meu trabalho começa com uma decisão que a operação precisa tomar. Como distribuir o trabalho entre técnicos? Que sequência de produção reduz as perdas de papel? O que acontece com o abastecimento se uma parte da cadeia parar? Uso Pesquisa Operacional, estatística e machine learning para formular essas perguntas, testar alternativas e colocar os modelos para funcionar. Da indústria à logística de e-commerce Ao longo de mais de 200 projetos, trabalhei com equipes de operação, engenharia e tecnologia na Visagio, Klabin, Mercado Livre e Stone. Stone. Aplico Pesquisa Operacional e estatística à logística, com projetos de alocação de técnicos, roteirização, rastreamento de veículos e precificação de entregas. Mercado Livre. Trabalhei em Shipping & Optimization, com previsão de tempo de entrega e estudos de roteirização, empacotamento e alocação de transportadores. Klabin. Em mais de 13 anos na empresa, liderei equipes técnicas e trabalhei em planejamento florestal, calendário de produção, corte de bobinas, estoques e simulação de riscos da cadeia de abastecimento. Também ajudei a desenvolver a Trilha Analytics, finalista do Think Work Flash Innovations 2023. Retrospectiva dos projetos na Klabin . Visagio. Trabalhei com consultoria em Pesquisa Operacional, otimização e simulação de eventos discretos. Ensino e divulgação Na XP Educação, ensino Estatística, Cálculo e Otimização para Data Science. Também compartilho casos de aplicação em aulas e seminários, como a aula sobre Pesquisa Operacional no Insper e o seminário da Poli-USP sobre aplicações do calendário do futebol à logística de e-commerce . Sou engenheiro de Infraestrutura Aeronáutica pelo ITA, mestre em Engenharia Elétrica na área de Eletrônica pela UFRJ e tenho MBA em Gerência de Projetos pela FGV. Também sou IBM Qiskit Advocate e divulgo aplicações de computação quântica. Escrevo no Ideias Esquecidas e na newsletter Reflexões Analíticas . Meus projetos abertos estão no GitHub , e minha trajetória profissional está no LinkedIn . Explore os casos aplicados no Compendium ."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "O Compêndio de Ideias do Prof. Arnaldo Gunzi",
+    "title": "Compendium",
     "section": "",
-    "text": "Este é um índice, mais ou menos organizado, de meus trabalhos."
+    "text": "class=\"content\" id=\"quarto-document-content\"> Compendium Pesquisa Operacional e Analytics na prática, por Arnaldo Gunzi. Como planejar milhares de entregas? Como cortar bobinas de papel com menos desperdício? Como desenhar estradas para abastecer uma fábrica? São problemas de setores diferentes, mas todos exigem a mesma coisa: transformar dados e restrições da operação em decisões que alguém consiga executar. Sou Senior Staff Data Scientist na Stone e professor de Estatística, Cálculo e Otimização na XP Educação. Em mais de 200 projetos, trabalhei com equipes da Visagio, Klabin, Mercado Livre e Stone em problemas de logística, produção e cadeia de abastecimento. Neste compêndio, reúno casos de aplicação, textos e experimentos para quem quer entender como esses modelos funcionam na prática. Minha trajetória em Pesquisa Operacional e Analytics"
+  },
+  {
+    "objectID": "index.html#casos-aplicados",
+    "href": "index.html#casos-aplicados",
+    "title": "Compendium",
+    "section": "Casos aplicados",
+    "text": "Casos aplicados Corte de estoque na indústria de papel. Como combinar pedidos em uma bobina respeitando limites de perda? Trabalho apresentado no SBPO 2024 . Planejamento florestal na Klabin. Como coordenar decisões de longo prazo para abastecer a indústria de celulose? Artigo sobre planejamento florestal . Logística na Stone. Exemplos de como a Pesquisa Operacional entra nas decisões da equipe de Logística e onde a IA pode ajudar. Relato da aula no Insper ."
   },
   {
     "objectID": "index.html#blog",
     "href": "index.html#blog",
-    "title": "O Compêndio de Ideias do Prof. Arnaldo Gunzi",
+    "title": "Compendium",
     "section": "Blog",
-    "text": "Blog\nBlog Ideias Esquecidas: https://ideiasesquecidas.com/\nBlog no Medium: https://arnaldogunzi.medium.com"
+    "text": "Blog Ideias Esquecidas reúne textos sobre matemática aplicada, tecnologia e estratégia, com uma pitada de filosofia. Blog no Medium: https://arnaldogunzi.medium.com"
   },
   {
     "objectID": "index.html#newsletter",
     "href": "index.html#newsletter",
-    "title": "O Compêndio de Ideias do Prof. Arnaldo Gunzi",
+    "title": "Compendium",
     "section": "Newsletter",
-    "text": "Newsletter\nNewsletter no Substack: https://arnaldogunzi.substack.com"
+    "text": "Newsletter Na newsletter Reflexões Analíticas , escrevo sobre dados, modelos e decisões de negócio."
   },
   {
     "objectID": "index.html#laboratório-de-matemática",
     "href": "index.html#laboratório-de-matemática",
-    "title": "O Compêndio de Ideias do Prof. Arnaldo Gunzi",
+    "title": "Compendium",
     "section": "Laboratório de Matemática",
-    "text": "Laboratório de Matemática\nAlguns experimentos em https://asgunzi.neocities.org/#top"
+    "text": "Laboratório de Matemática Alguns experimentos em https://asgunzi.neocities.org/#top"
   },
   {
     "objectID": "index.html#e-books",
     "href": "index.html#e-books",
-    "title": "O Compêndio de Ideias do Prof. Arnaldo Gunzi",
+    "title": "Compendium",
     "section": "E-Books",
-    "text": "E-Books\nAs 36 Estratégias Secretas dos chineses antigos"
+    "text": "E-Books As 36 Estratégias Secretas dos chineses antigos O Quadro do Inferno"
   },
   {
     "objectID": "index.html#redes-sociais",
     "href": "index.html#redes-sociais",
-    "title": "O Compêndio de Ideias do Prof. Arnaldo Gunzi",
+    "title": "Compendium",
     "section": "Redes Sociais",
-    "text": "Redes Sociais\nProjetos no Github: https://github.com/asgunzi\nLinkedIn: https://www.linkedin.com/in/arnaldogunzi/\nDivirta-se!"
+    "text": "Redes Sociais Projetos no Github: https://github.com/asgunzi LinkedIn: https://www.linkedin.com/in/arnaldogunzi/"
+  },
+  {
+    "objectID": "index.html#jogos-ilustrativos",
+    "href": "index.html#jogos-ilustrativos",
+    "title": "Compendium",
+    "section": "Jogos ilustrativos",
+    "text": "Jogos ilustrativos Jogo do Caixeiro viajante Jogo do Trim No primeiro jogo, experimente mudar a ordem das visitas e veja o efeito na distância total. No segundo, tente encaixar os pedidos para aproveitar melhor a largura do papel."
   }
 ]
